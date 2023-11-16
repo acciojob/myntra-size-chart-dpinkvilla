@@ -1,2 +1,8 @@
 
 /* Your CSS Code here. */
+tr>*:not(:first-of-type){
+	text-align:right;
+}
+th:first-child{
+	text-align:left;
+}
